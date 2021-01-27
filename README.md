@@ -2,6 +2,9 @@
 
 _Пример адаптивной верстки на React компонентах_
 
+Проект на github pages
+https://vlapky.github.io/adaptive-portfolio/
+
 ### Технологии:
 
 - React
