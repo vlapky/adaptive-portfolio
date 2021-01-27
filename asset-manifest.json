@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/adaptive-portfolio/static/css/main.ee3ccbeb.chunk.css",
+    "main.js": "/adaptive-portfolio/static/js/main.b6ed699e.chunk.js",
+    "main.js.map": "/adaptive-portfolio/static/js/main.b6ed699e.chunk.js.map",
+    "runtime-main.js": "/adaptive-portfolio/static/js/runtime-main.79158c7e.js",
+    "runtime-main.js.map": "/adaptive-portfolio/static/js/runtime-main.79158c7e.js.map",
+    "static/js/2.eff7c396.chunk.js": "/adaptive-portfolio/static/js/2.eff7c396.chunk.js",
+    "static/js/2.eff7c396.chunk.js.map": "/adaptive-portfolio/static/js/2.eff7c396.chunk.js.map",
+    "static/js/3.991b8215.chunk.js": "/adaptive-portfolio/static/js/3.991b8215.chunk.js",
+    "static/js/3.991b8215.chunk.js.map": "/adaptive-portfolio/static/js/3.991b8215.chunk.js.map",
+    "index.html": "/adaptive-portfolio/index.html",
+    "static/css/main.ee3ccbeb.chunk.css.map": "/adaptive-portfolio/static/css/main.ee3ccbeb.chunk.css.map",
+    "static/js/2.eff7c396.chunk.js.LICENSE.txt": "/adaptive-portfolio/static/js/2.eff7c396.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/adaptive-portfolio/static/media/infinity-solid.74f97d38.svg",
+    "static/media/JasonWood.2cfd3a26.jpg": "/adaptive-portfolio/static/media/JasonWood.2cfd3a26.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79158c7e.js",
+    "static/js/2.eff7c396.chunk.js",
+    "static/css/main.ee3ccbeb.chunk.css",
+    "static/js/main.b6ed699e.chunk.js"
+  ]
+}
