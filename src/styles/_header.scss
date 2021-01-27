@@ -1,0 +1,15 @@
+&__header {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-image: url(../assets/Background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  .portfolio__scroll {
+    margin-top: auto;
+    color: #fff;
+  }
+}

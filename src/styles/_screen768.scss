@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .portfolio {
+    width: 100vw;
+    &__scroll {
+      display: none;
+    }
+    &__nav {
+      &_item {
+        margin: 1.5rem 0.5rem;
+      }
+      &__hr {
+        margin: 0 2rem;
+      }
+    }
+    &__header {
+      height: 90vh;
+      background-position: center;
+      background-size: cover;
+    }
+    &__main {
+      margin: 0;
+      .portfolio__nav__hr {
+        margin: 0;
+      }
+      &__content {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        &_img {
+          margin-right: 0;
+          img {
+            width: 100vw;
+          }
+        }
+        &__about-me {
+          width: 90vw;
+          margin: 0 1.5rem;
+          &_title {
+            margin-top: 1rem;
+          }
+          &_author {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

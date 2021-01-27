@@ -1,0 +1,54 @@
+&__main {
+  @include mainFont;
+  display: flex;
+  flex-direction: column;
+  .portfolio__nav {
+    &_item {
+      color: #bebebe;
+    }
+    &__hr {
+      background-color: #bebebe;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem auto 0;
+    &_img {
+      width: 40vw;
+      margin-right: 1rem;
+      img {
+        width: 40vw;
+      }
+    }
+    &__about-me {
+      margin-left: 1rem;
+      width: 40vw;
+      &_title {
+        margin: 0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 40px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+      &_text {
+        margin: 0;
+      }
+      &_author {
+        margin: 0;
+        margin-top: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .portfolio__scroll {
+    color: #bebebe;
+    margin-top: 0;
+    padding-bottom: 1rem;
+    &_text::after {
+      background-color: #bebebe;
+    }
+  }
+}

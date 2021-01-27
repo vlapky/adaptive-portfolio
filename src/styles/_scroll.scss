@@ -1,0 +1,17 @@
+&__scroll {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  &_text {
+    margin: 1rem 0;
+  }
+  &_text::after {
+    content: '';
+    mask-image: url(../assets/AngleDoubleDown.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    margin: 1rem auto;
+  }
+}

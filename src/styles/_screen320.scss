@@ -1,0 +1,50 @@
+@media screen and (max-width: 320px) {
+  .portfolio {
+    &__menu {
+      display: flex;
+      color: #f1f1f1;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      align-items: stretch;
+      margin-top: 2.5rem;
+    }
+    &__menu::before {
+      content: '';
+      mask-image: url(../assets/infinity-solid.svg);
+      display: block;
+      width: 28px;
+      height: 23px;
+      background-color: #f1f1f1;
+      margin-left: 2.5rem;
+      margin-right: 0.7rem;
+    }
+    &__scroll {
+      display: none;
+    }
+    &__nav {
+      display: none;
+    }
+    &__header {
+      height: 267px;
+      background-position: 45% 28%;
+      background-size: auto;
+    }
+    &__main__content {
+      &_img {
+        img {
+          height: 700px;
+          object-fit: cover;
+        }
+      }
+      &__about-me {
+        &_text {
+          line-height: 40px;
+        }
+        &_author {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

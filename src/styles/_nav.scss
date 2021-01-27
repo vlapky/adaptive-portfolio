@@ -1,0 +1,20 @@
+&__nav {
+  &_items {
+    display: flex;
+    justify-content: center;
+  }
+  @include navFont;
+
+  &_item {
+    color: #fff;
+    margin: 1.5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  &__hr {
+    margin: 0 2rem;
+    border: none;
+    height: 1px;
+    background-color: #fff;
+  }
+}
